@@ -1,0 +1,56 @@
+.columna_texto_seccion{
+    background-color: lightgrey;
+    width: 66%;
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+.thumbnail_noticias{
+    width: 33%;
+    height: 100%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+.noticia{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+.imagen_noticia{
+    width: 100px;
+    height: 56px;
+    margin: 5px;
+    padding: 5px;
+}
+.p_noticia{
+    margin: 10px 5px;
+    padding: 5px 10px;
+}
+.encabezado_seccion{
+    display: flex;
+    flex-direction: row;
+}
+.pointer{
+    margin: 5px 5px 5px 5px;
+}
+.imagen_finanzas{
+    width: 266px;
+    height: 180px;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+.bloque_finanzas1{
+    display: flex;
+    flex-direction: column;
+}
+.bloque_finanzas2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+.bloque_finanzas3{
+    text-align: right;
+}
+

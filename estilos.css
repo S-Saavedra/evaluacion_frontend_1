@@ -1,0 +1,116 @@
+.body{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background:linear-gradient(to bottom, black 40%, rgb(49, 49, 49));
+    margin: 0px 150px 0px 50px;
+    padding: 5px 5px;
+}
+.header_1{
+
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    color: white;
+    background-color: rgb(49,49,49);
+    padding: 0px 5px;
+    margin: 0px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+} 
+.link{
+    color: white;
+    margin: 10px;
+    padding: 20px 5px 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link:hover{
+    background-color:lightgrey;
+    color: black;
+    padding: 30px 5px 30px 5px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 5px;
+}
+.barra_subtitulo{
+    display: flex;
+    flex-direction: row;   
+}
+.seccion_subtitulo{
+    width: 70%;
+    padding: 40px 5px 5px 5px;
+    margin: 5px;
+    color: white;
+}
+.seccion_newsletter{
+    width: 30%;
+    padding: 30px 5px 5px 5px;
+    color: white;
+}
+.formulario_newsletter{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
+.boton_enviar{
+    margin: 25px 5px 0px 5px;
+    padding: 5px;
+    align-items: baseline;
+}                    
+.cuerpo_blanco{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.columna_texto{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+.bloque_texto{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+.titulo_texto{
+    text-align: left;
+}
+.derecha{
+    text-align: right;
+    margin: 10px;
+}
+.linea_divisoria{
+    background-color: black;
+    height: 2px;
+}
+.bloque_destacado{
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 10px 20px;
+}
+.contenedor_imagen{
+    display: flex;
+}
+.imagen{
+    position: relative;
+    z-index: 1;
+}
+.texto_en_imagen{
+    position: absolute;
+    z-index: 2;
+}
+.footer{
+    color: black;
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    padding: 20px 5px;
+    margin: 0px;
+}
